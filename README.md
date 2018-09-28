@@ -7,7 +7,39 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+以demo为例：
+
+当发生内存泄漏时，会有弹窗提示
+
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fvp3fojlahj308t053mxj.jpg)
+
+这时请看控制台的输出：
+
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fvp3huyhznj30oq03ot9j.jpg)
+
+复制内存泄漏对象地址：
+
+打开Xcode内存图功能：
+
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fvp3jqr2utj309o0140ss.jpg)
+
+粘贴内存泄漏对象地址进行查找过滤：
+
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fvp3l1iqi4j307i066weu.jpg)
+
+鼠标右键箭头所指向的block->点击Print Description：
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fvp3mn7m38j30fh0atmxw.jpg)
+
+查看控制台的输出：
+
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fvp3ohoyf8j30mc01djrn.jpg)
+
+复制红线命令，粘贴至lldb：
+
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fvp3pw65j6j30ov01s74o.jpg)
+
+红框部分就是block导致循环引用的代码定义处，请自行跳转代码进行修复.
 
 ## Requirements
 
