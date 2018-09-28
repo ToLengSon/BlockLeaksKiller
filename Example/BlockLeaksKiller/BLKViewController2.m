@@ -7,10 +7,9 @@
 //
 
 #import "BLKViewController2.h"
+#import "BLKView.h"
 
 @interface BLKViewController2 ()
-
-@property (nonatomic, copy) void (^block)(void);
 
 @end
 
@@ -18,10 +17,13 @@
 
 - (void)viewDidLoad {
     
-    self.block = ^{
-        [super viewDidLoad];
+    BLKView *view = [[BLKView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    
+    view.backgroundColor = [UIColor greenColor];
+    view.block = ^{
+        NSLog(@"%@", self);
     };
-    self.block();
+    [self.view addSubview:view];
 }
 
 - (IBAction)onClick:(id)sender {

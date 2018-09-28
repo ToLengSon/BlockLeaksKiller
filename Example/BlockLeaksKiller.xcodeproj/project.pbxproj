@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		86EFADACBD925D5C232432C9 /* Pods_BlockLeaksKiller_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D94B87BCB295D90AE81B7B4 /* Pods_BlockLeaksKiller_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8A59A12C215E12AC00FA734A /* BLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A59A12B215E12AC00FA734A /* BLKView.m */; };
 		8AF519DD215DD5580020CFED /* BLKViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF519DC215DD5580020CFED /* BLKViewController2.m */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A59A12A215E12AC00FA734A /* BLKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLKView.h; sourceTree = "<group>"; };
+		8A59A12B215E12AC00FA734A /* BLKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLKView.m; sourceTree = "<group>"; };
 		8AF519DB215DD5580020CFED /* BLKViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLKViewController2.h; sourceTree = "<group>"; };
 		8AF519DC215DD5580020CFED /* BLKViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLKViewController2.m; sourceTree = "<group>"; };
 		8D4FBAD47321DC49A7B4CBA3 /* BlockLeaksKiller.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlockLeaksKiller.podspec; path = ../BlockLeaksKiller.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -138,6 +141,8 @@
 				6003F5A6195388D20070C39A /* BLKViewController.m */,
 				8AF519DB215DD5580020CFED /* BLKViewController2.h */,
 				8AF519DC215DD5580020CFED /* BLKViewController2.m */,
+				8A59A12A215E12AC00FA734A /* BLKView.h */,
+				8A59A12B215E12AC00FA734A /* BLKView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -343,6 +348,7 @@
 				8AF519DD215DD5580020CFED /* BLKViewController2.m in Sources */,
 				6003F5A7195388D20070C39A /* BLKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8A59A12C215E12AC00FA734A /* BLKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
