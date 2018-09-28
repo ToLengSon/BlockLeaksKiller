@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wsong/BlockLeaksKiller'
+  s.homepage         = 'https://github.com/ToLengSon/BlockLeaksKiller'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wsong' => '835151791@qq.com' }
-  s.source           = { :git => 'https://github.com/wsong/BlockLeaksKiller.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/ToLengSon/BlockLeaksKiller.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
