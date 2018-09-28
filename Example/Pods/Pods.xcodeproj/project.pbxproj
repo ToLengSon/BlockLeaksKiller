@@ -1,0 +1,1239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B33E95527573548D9BB228AC1882C7 /* MLeaksFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1484C8A74A4535B665236000C16698BA /* MLeaksFinder-dummy.m */; };
+		04506A87BE11BEF43B6ACE20E2193261 /* UIApplication+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = EC40DF33D26E40490655998A2D332423 /* UIApplication+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05EE88940105591E83180515096D87BA /* FBStandardGraphEdgeFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = F3AC53DA39943D5371665C74A2E0E353 /* FBStandardGraphEdgeFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		070AADC35B6509A2777530EE4F477028 /* FBAssociationManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = AC3E9F28D3C458C1B63EF60C49EBBA3D /* FBAssociationManager.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		08ACE3A1100D358B6559504FC0B30822 /* Pods-BlockLeaksKiller_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D80EAA725D05474CD05D0F80463373FD /* Pods-BlockLeaksKiller_Example-dummy.m */; };
+		0FD561FCC59D909EB0314282E970C07B /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 068D4868CF3924D5E192739EEABE9F62 /* UIViewController+MemoryLeak.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		11BC4F2EC2661DB7632570C0826EBF9E /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 114782DACE5AFC687037360539E587D1 /* UIApplication+MemoryLeak.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		139E776CDE7DA62A2351028339C5E965 /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3169BB7920613B46394D235CAF7005EF /* MLeakedObjectProxy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		148C474EA07ADF45D73A5610A39F4EC3 /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D2825D67F8433D0894CF116345F54 /* UIPageViewController+MemoryLeak.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		160DF0C58B8280A6330051048EBD11BF /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64542D93944FA514D211EB9478CFEF /* UINavigationController+MemoryLeak.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		161C910E468E12F8BE6683EDD834B0E2 /* FBRetainCycleUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B6048D496C658E94AC042D0A43331499 /* FBRetainCycleUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19B8C6766B2D9AB0D1FED885DA99990E /* FBObjectInStructReference.m in Sources */ = {isa = PBXBuildFile; fileRef = D053CAC17E083F9E253E2604062AFB26 /* FBObjectInStructReference.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1C377CF3C298EDFA1F2BA61E9B2F5ADC /* UISplitViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4728313956A3A5EC3EF4B809971899 /* UISplitViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D80088D9CDF0FB0E73017A93B066A2F /* FBObjectiveCNSCFTimer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71E9C316954C48915237D611CDAC383E /* FBObjectiveCNSCFTimer.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2421DF481FFAE61CFB67CE154D556FD4 /* FBObjectiveCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E2628333225E92C285918A5A89C199BB /* FBObjectiveCBlock.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		25A39EEEA399B95D317112B8DB2D9449 /* UIPageViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C0F353AF0193E43B7AEF27FFCE72EB /* UIPageViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2757F49285E0EC19B7166A2C1335405A /* MLeaksFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C42F490BA6B554748A9FEDB8AFA09A5 /* MLeaksFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27F66D4DF04833D74D8A0BFD1C80A19A /* FBRetainCycleDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = C6675A59ED9AB1808EA9ADB69F3E2005 /* FBRetainCycleDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FD97289468F5A5D4F173F90D749553 /* Struct.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D37DECCECB588449AFE714AE25ACB9F /* Struct.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2AD5696F2EDE4CB6EA5ECAD83018070B /* FBAssociationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD08FA0CE0E7ED4C49372493E6B14A10 /* FBAssociationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D92EBFA62E3EB9D7AAD8B83D83BB356 /* FBBlockStrongRelationDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56ADCB798A3FEFDF257D80F4617073 /* FBBlockStrongRelationDetector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3217FB8B743F11A3D2CE90AA62AA0EB6 /* FBObjectiveCGraphElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F42E0C3FE60F99CEFE2C18BC10FFB752 /* FBObjectiveCGraphElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399456B1653F2E75AA91190F3B6DA5EF /* FBObjectiveCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAC004F377122CCD10FECA7A0D0F8B0 /* FBObjectiveCObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DD05227B71C8C0E29DE7373EBCA9C3A /* FBBlockInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = BA03188D64B65F65BA04E70ACB539239 /* FBBlockInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DD23BF5CECD66DD41BE0710B0A140DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBF9D93AAFEEB9F7D84627BED24538C /* Foundation.framework */; };
+		430EABFBF61004AAA335071A02F17E14 /* FBRetainCycleDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBC240B8180911E2EEF156BE2D27599 /* FBRetainCycleDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4573E74BE95C8B3AD7C88EBAAE86C571 /* FBNodeEnumerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = A4B44178FFB5C1BF36B035A5B0C2D381 /* FBNodeEnumerator.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4998272B0FCEE8D9A170EEF82640C9BD /* BaseType.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA9C41EE3E895FAC13377804BB4D5F8 /* BaseType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C836E32CD02873A1A0B5125C916DA0B /* FBRetainCycleDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55602D1D19100526482FC60D286B7BE /* FBRetainCycleDetector.framework */; };
+		501AD315729920D86BB52F748D39351B /* FBObjectReference.h in Headers */ = {isa = PBXBuildFile; fileRef = BB706560187859475C3E46AAC469B92A /* FBObjectReference.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		552804F8AB4B1371EC4959CB984FE818 /* FBBlockStrongLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8636C01CB273F1D441825629130C7C9F /* FBBlockStrongLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B46C7ABD452DBC898D1387EC950936A /* FBAssociationManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACDBC3B378CD9F7B012A34AF7DF5DD3 /* FBAssociationManager+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BBC2CFDF00D942247A8BC993C1B8351 /* UINavigationController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C80AFD5B1E1E2AD2A027F137C4C3962 /* UINavigationController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FCA21AA98BDF5B327E7D3EA356471F2 /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = B23E351AF59998CA1F153418616C6A77 /* UISplitViewController+MemoryLeak.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		63181AE4ADB3297842B21AAC0597FD7F /* FBObjectiveCNSCFTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D68D98BCDEA229DF268587D2762C49A /* FBObjectiveCNSCFTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6344DA6529E17DD402284B30D7DCCBC0 /* Struct.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BCD1023060B625606F3A3860DB953A /* Struct.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6353F853A972299E7B48A59DD1071B80 /* NSObject+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = A412CC6B89F4644F4836AFD11C4BDDF5 /* NSObject+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64499485A594C66F86D06F1672460711 /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A3AD14A143B575968F8E8FF6AEFEF /* UIView+MemoryLeak.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		682A8A8CDF976FB955BDD9F4F4202F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBF9D93AAFEEB9F7D84627BED24538C /* Foundation.framework */; };
+		684AAA915E668B285BB4C1EB99142611 /* FBRetainCycleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3067E1811CEB863ED76FFE05DFCD845C /* FBRetainCycleUtils.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6BA3C3220172D7D7B91FD10A7B92FAA4 /* FBObjectiveCBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9807B9458D66C6A9186045E81F01C28D /* FBObjectiveCBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9DE65FC74FE176C4AA35B1E475BAFB /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE20F0933BFA7A2E80F51CE124CE219 /* NSObject+MemoryLeak.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6F6AEC426FEC87DA74683262902D7C3E /* FBObjectGraphConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEB2C41BCD57087130F4921248B91C /* FBObjectGraphConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6FA679FAF7027601C8D2504BFAF1F797 /* FBStructEncodingParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 820AD75CD1A45E58487EDCDA44905AD3 /* FBStructEncodingParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FC6987310386C2330826252C5A4F669 /* FBObjectGraphConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1547225AC7ABEBB21A7BB3E2C2853E /* FBObjectGraphConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749FF3B7DB4E675A7DAF771430CD7740 /* FBObjectiveCGraphElement+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FC50F1882012F50708B178CF9DDAEF /* FBObjectiveCGraphElement+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78CCBBA27DE5F5E16D2DD5068B1AE95B /* MLeaksMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = 261EA69869CBBE19290390E5345B6287 /* MLeaksMessenger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A428A18D87650110F022B163B340D00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822ADC69B9EE63AE25DE234425717603 /* UIKit.framework */; };
+		80FBE6FAA8AEC5A37D0A47093635AF4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBF9D93AAFEEB9F7D84627BED24538C /* Foundation.framework */; };
+		836336D9013B0F5AD8B04E976AED034D /* FBNodeEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B401F116CF3E027D6FB9EE1A93C77B /* FBNodeEnumerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85D4FD8008434EBB4BAAC068126087D1 /* FBBlockStrongLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DF00B710FB0854EA8BCFE3769E5387 /* FBBlockStrongLayout.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		87498DD308FC5ACF8957F4618D791DD2 /* FBClassStrongLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1BA023AB05FC2875D4B1549818023E /* FBClassStrongLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A60D88AB34884B432E088858CA595C4 /* FBClassStrongLayoutHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 310DCDF819C5F6E9C6733F120BDF311A /* FBClassStrongLayoutHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8C69F7B01CFB85A6ECE7A656E81DC602 /* FBObjectInStructReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 4111BC8F43944BEA32BCE9BCB5FF139F /* FBObjectInStructReference.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9022A1B8C895FBFDC095B92D1A42B5B1 /* UIView+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C0FC05EB5CA81D9B16FD8E2076724F /* UIView+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		942DDA64BEE0AF072B0812A3A47948C8 /* BlockLeaksKiller-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DBBF8B10EAA8FA5C6F79D974E627FF /* BlockLeaksKiller-dummy.m */; };
+		973CB6F8294AE39573BB6370641B078C /* FBRetainCycleDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55602D1D19100526482FC60D286B7BE /* FBRetainCycleDetector.framework */; };
+		9F2D31BDCA36D0C158F225E235E7700A /* FBIvarReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D4A8C8D56976E6AACF744423A655E8 /* FBIvarReference.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9F47BAD84C40BC2624F2BA076BBC5D2F /* FBStandardGraphEdgeFilters.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B3677A5D1F066D9A581BB3343666D67 /* FBStandardGraphEdgeFilters.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A105FDF5F024B735FFE7C7AC23A97230 /* MLeaksFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509F6C9DE46971E5F9512C7DD32F82A3 /* MLeaksFinder.framework */; };
+		A2A2643C1F7388D0248C9ABF925CD53C /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606F6A46C7D846C01F055D2C0F3F10 /* UITabBarController+MemoryLeak.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A41B9858B53B817AF0C876F44BE559EA /* FBRetainCycleDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 203DB5B69C049AFF6236C0D56F34A8EB /* FBRetainCycleDetector.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A4FB4C1AA0ECB7FF0FA3F94FA7310E4D /* FBRetainCycleDetector+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 969E92AF4B5CD4EC379D220E19D206AB /* FBRetainCycleDetector+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE55DE266EF6DF501490385A539DA9BB /* UITabBarController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DEA98A26E05208E9620702E95BBFFB /* UITabBarController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8DB7D24FA5F60486522CC102017F60B /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE69894256970678A51CE3E322CDC2F /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2BE486AC341883443BE385281C788AB /* NSObject+BLKCoreExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58D52167AAF877BF5F2D3F3B3EFAF1 /* NSObject+BLKCoreExtension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C5EAE7C7AE04615C2F2A798B2C371007 /* UIViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB36CB8E9B4E5325D94E8E6B07B03E3 /* UIViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C66728032D728B596BD51CD4653128D5 /* Pods-BlockLeaksKiller_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA837BAFD2B6FF135CEA0CFB97B8C97 /* Pods-BlockLeaksKiller_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8865AD1371A0DB3067C72F1F4EB023A /* Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B6666BFD494C6EE113333758644E8B /* Type.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9817F8EC58C07DB7A431A5D45C039F6 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 3321F298434E51DF415210FDBF0C1CFF /* fishhook.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D128B12687F17B1E7464BF99017A8C4E /* MLeakedObjectProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B2E881D0BCA69C665F39492FD842FE /* MLeakedObjectProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D20AECA3728CB9A4F65CF12245BFB158 /* UITouch+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68C976E70B47C4E673BCBDE7867B1D /* UITouch+MemoryLeak.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D46B23EE36D370A64D3C51F0BBD22266 /* FBBlockStrongRelationDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D885E63B6EAE4386775E8F138BECE89 /* FBBlockStrongRelationDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D474ECB401830C4A3ECB60C900A1465D /* FBClassStrongLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9509F3B80A7AD2D3A57BB47991CA2EE7 /* FBClassStrongLayout.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D598B76CA9393D7796F7E70B04FFAE18 /* FBStructEncodingParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88091A7915D412006A58B4573811EC30 /* FBStructEncodingParser.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5BC51CAF722E632DEA8325A114D7AAA /* MLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C513C9970AF3DBE9BF33F90F68EB16 /* MLeaksMessenger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D8FAEE18CAFC1CB062A0F4466C5092D0 /* FBObjectiveCGraphElement.mm in Sources */ = {isa = PBXBuildFile; fileRef = C2FC5ADEF6834FBA1A00D443B67350DB /* FBObjectiveCGraphElement.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DBBE35349656427B769E07DD58F5888D /* FBRetainCycleDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 509337B8E919CBD15371391CF8B47BE8 /* FBRetainCycleDetector-dummy.m */; };
+		DF63BD84CB70DE514136AB2812DD1ECB /* UITouch+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A8E0B24F7AC2120319F99993263B52 /* UITouch+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DFCC81EBA54BCC3E888E4BF293AFCB2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBF9D93AAFEEB9F7D84627BED24538C /* Foundation.framework */; };
+		E45007C64263A16DA0BB51C2C1C14677 /* BlockLeaksKiller-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 263E98327A157B87322A92ECB485B694 /* BlockLeaksKiller-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E543EB9CF29FC383F3F3421CA02C5A76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C9C2D2855D674AACF006903996F370 /* CoreGraphics.framework */; };
+		EA815680672C00087B422C76B3A6A9B2 /* MLeaksFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = AE02CEA282A68A167563AB1F1097DDEA /* MLeaksFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0CFF7A10C894D8679EAECD5FDA6C29B /* FBIvarReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC348B95D79E411F9B042251CA3AABF /* FBIvarReference.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3CD25C19B9D1CEBD69F066BA037C660 /* FBObjectiveCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A9607D532D842BB75BA89F71F29A9 /* FBObjectiveCObject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F84E13EED14F54DC8F8270729A5F3F33 /* FBClassStrongLayoutHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = FFCD10931432B79E61B246144739E62E /* FBClassStrongLayoutHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15BD8293B194E81C95E2D85AA85AA3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6945D1DF7B177028CFB4F3D5E94437B5;
+			remoteInfo = FBRetainCycleDetector;
+		};
+		3FAEB34A53797C6D4E0AC616F659B0AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6945D1DF7B177028CFB4F3D5E94437B5;
+			remoteInfo = FBRetainCycleDetector;
+		};
+		493D56F2DC383B0AB9ABFAB468FADA3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 642EEEAA1CDCC9551BA635B00FF9078F;
+			remoteInfo = BlockLeaksKiller;
+		};
+		4DDE49E85C700397829B3703CF646996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6945D1DF7B177028CFB4F3D5E94437B5;
+			remoteInfo = FBRetainCycleDetector;
+		};
+		97EF5662772160B7E41FBAE1100036F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960E41433D95108DF7E7818934B3554F;
+			remoteInfo = MLeaksFinder;
+		};
+		E645A4D3CFA05710B4E6162B1DBF8DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960E41433D95108DF7E7818934B3554F;
+			remoteInfo = MLeaksFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068D4868CF3924D5E192739EEABE9F62 /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MemoryLeak.m"; path = "MLeaksFinder/UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		114782DACE5AFC687037360539E587D1 /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+MemoryLeak.m"; path = "MLeaksFinder/UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		1484C8A74A4535B665236000C16698BA /* MLeaksFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLeaksFinder-dummy.m"; sourceTree = "<group>"; };
+		16B401F116CF3E027D6FB9EE1A93C77B /* FBNodeEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNodeEnumerator.h; path = FBRetainCycleDetector/Detector/FBNodeEnumerator.h; sourceTree = "<group>"; };
+		17B6666BFD494C6EE113333758644E8B /* Type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.h; path = FBRetainCycleDetector/Layout/Classes/Parser/Type.h; sourceTree = "<group>"; };
+		1AEDC446844CE01BAFFA2A769292EB70 /* FBRetainCycleDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBRetainCycleDetector.modulemap; sourceTree = "<group>"; };
+		1B58D52167AAF877BF5F2D3F3B3EFAF1 /* NSObject+BLKCoreExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BLKCoreExtension.m"; path = "BlockLeaksKiller/Classes/NSObject+BLKCoreExtension.m"; sourceTree = "<group>"; };
+		1D885E63B6EAE4386775E8F138BECE89 /* FBBlockStrongRelationDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockStrongRelationDetector.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongRelationDetector.h; sourceTree = "<group>"; };
+		1FC348B95D79E411F9B042251CA3AABF /* FBIvarReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBIvarReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.h; sourceTree = "<group>"; };
+		203DB5B69C049AFF6236C0D56F34A8EB /* FBRetainCycleDetector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBRetainCycleDetector.mm; path = FBRetainCycleDetector/Detector/FBRetainCycleDetector.mm; sourceTree = "<group>"; };
+		261EA69869CBBE19290390E5345B6287 /* MLeaksMessenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksMessenger.h; path = MLeaksFinder/MLeaksMessenger.h; sourceTree = "<group>"; };
+		263E98327A157B87322A92ECB485B694 /* BlockLeaksKiller-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlockLeaksKiller-umbrella.h"; sourceTree = "<group>"; };
+		2B64542D93944FA514D211EB9478CFEF /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+MemoryLeak.m"; path = "MLeaksFinder/UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		2E446217CEF4DC815AE82D6CACC27CFE /* Pods-BlockLeaksKiller_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockLeaksKiller_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3067E1811CEB863ED76FFE05DFCD845C /* FBRetainCycleUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBRetainCycleUtils.m; path = FBRetainCycleDetector/FBRetainCycleUtils.m; sourceTree = "<group>"; };
+		310DCDF819C5F6E9C6733F120BDF311A /* FBClassStrongLayoutHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBClassStrongLayoutHelpers.m; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayoutHelpers.m; sourceTree = "<group>"; };
+		3169BB7920613B46394D235CAF7005EF /* MLeakedObjectProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLeakedObjectProxy.m; path = MLeaksFinder/MLeakedObjectProxy.m; sourceTree = "<group>"; };
+		3321F298434E51DF415210FDBF0C1CFF /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		34D9D09FE1D8D654514AF4028D99B2A0 /* Pods-BlockLeaksKiller_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlockLeaksKiller_Example.modulemap"; sourceTree = "<group>"; };
+		3755F1C057499061BF3D6DC49E280F22 /* FBRetainCycleDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBRetainCycleDetector.framework; path = FBRetainCycleDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		381923FBDD9499EC6E24BB413C995590 /* Pods-BlockLeaksKiller_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlockLeaksKiller_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3ACDBC3B378CD9F7B012A34AF7DF5DD3 /* FBAssociationManager+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBAssociationManager+Internal.h"; path = "FBRetainCycleDetector/Associations/Internal/FBAssociationManager+Internal.h"; sourceTree = "<group>"; };
+		3F2A3AD14A143B575968F8E8FF6AEFEF /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MemoryLeak.m"; path = "MLeaksFinder/UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		4111BC8F43944BEA32BCE9BCB5FF139F /* FBObjectInStructReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectInStructReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectInStructReference.h; sourceTree = "<group>"; };
+		44B2E881D0BCA69C665F39492FD842FE /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeakedObjectProxy.h; path = MLeaksFinder/MLeakedObjectProxy.h; sourceTree = "<group>"; };
+		4C80AFD5B1E1E2AD2A027F137C4C3962 /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+MemoryLeak.h"; path = "MLeaksFinder/UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		4EE20F0933BFA7A2E80F51CE124CE219 /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MemoryLeak.m"; path = "MLeaksFinder/NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		4EEC50F7E98EEEAEFE54F9CE98377ABE /* BlockLeaksKiller.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlockLeaksKiller.xcconfig; sourceTree = "<group>"; };
+		4F4728313956A3A5EC3EF4B809971899 /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISplitViewController+MemoryLeak.h"; path = "MLeaksFinder/UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		509337B8E919CBD15371391CF8B47BE8 /* FBRetainCycleDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBRetainCycleDetector-dummy.m"; sourceTree = "<group>"; };
+		509F6C9DE46971E5F9512C7DD32F82A3 /* MLeaksFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLeaksFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53126A943D2111569A9D99504B32814A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		54D4A8C8D56976E6AACF744423A655E8 /* FBIvarReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBIvarReference.m; path = FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.m; sourceTree = "<group>"; };
+		58C9C2D2855D674AACF006903996F370 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		59CAF74FD49A150A28EAAAC7E1014C59 /* BlockLeaksKiller.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlockLeaksKiller.modulemap; sourceTree = "<group>"; };
+		5AA49E094A7591042A8BF45257421E76 /* BlockLeaksKiller-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlockLeaksKiller-prefix.pch"; sourceTree = "<group>"; };
+		60FC50F1882012F50708B178CF9DDAEF /* FBObjectiveCGraphElement+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBObjectiveCGraphElement+Internal.h"; path = "FBRetainCycleDetector/Graph/Internal/FBObjectiveCGraphElement+Internal.h"; sourceTree = "<group>"; };
+		66C0FC05EB5CA81D9B16FD8E2076724F /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MemoryLeak.h"; path = "MLeaksFinder/UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		6C42F490BA6B554748A9FEDB8AFA09A5 /* MLeaksFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLeaksFinder-umbrella.h"; sourceTree = "<group>"; };
+		71E9C316954C48915237D611CDAC383E /* FBObjectiveCNSCFTimer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBObjectiveCNSCFTimer.mm; path = FBRetainCycleDetector/Graph/Specialization/FBObjectiveCNSCFTimer.mm; sourceTree = "<group>"; };
+		7AF34D609E17163543702BCC36E2BBB9 /* Pods-BlockLeaksKiller_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlockLeaksKiller_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C1BA023AB05FC2875D4B1549818023E /* FBClassStrongLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBClassStrongLayout.h; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayout.h; sourceTree = "<group>"; };
+		7D68D98BCDEA229DF268587D2762C49A /* FBObjectiveCNSCFTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCNSCFTimer.h; path = FBRetainCycleDetector/Graph/Specialization/FBObjectiveCNSCFTimer.h; sourceTree = "<group>"; };
+		7EB36CB8E9B4E5325D94E8E6B07B03E3 /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MemoryLeak.h"; path = "MLeaksFinder/UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		820AD75CD1A45E58487EDCDA44905AD3 /* FBStructEncodingParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBStructEncodingParser.h; path = FBRetainCycleDetector/Layout/Classes/Parser/FBStructEncodingParser.h; sourceTree = "<group>"; };
+		822ADC69B9EE63AE25DE234425717603 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8636C01CB273F1D441825629130C7C9F /* FBBlockStrongLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockStrongLayout.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongLayout.h; sourceTree = "<group>"; };
+		88091A7915D412006A58B4573811EC30 /* FBStructEncodingParser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBStructEncodingParser.mm; path = FBRetainCycleDetector/Layout/Classes/Parser/FBStructEncodingParser.mm; sourceTree = "<group>"; };
+		8B3677A5D1F066D9A581BB3343666D67 /* FBStandardGraphEdgeFilters.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBStandardGraphEdgeFilters.mm; path = FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.mm; sourceTree = "<group>"; };
+		8D37DECCECB588449AFE714AE25ACB9F /* Struct.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Struct.mm; path = FBRetainCycleDetector/Layout/Classes/Parser/Struct.mm; sourceTree = "<group>"; };
+		90DEA98A26E05208E9620702E95BBFFB /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+MemoryLeak.h"; path = "MLeaksFinder/UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9509F3B80A7AD2D3A57BB47991CA2EE7 /* FBClassStrongLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBClassStrongLayout.mm; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayout.mm; sourceTree = "<group>"; };
+		969E92AF4B5CD4EC379D220E19D206AB /* FBRetainCycleDetector+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBRetainCycleDetector+Internal.h"; path = "FBRetainCycleDetector/Detector/FBRetainCycleDetector+Internal.h"; sourceTree = "<group>"; };
+		9807B9458D66C6A9186045E81F01C28D /* FBObjectiveCBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCBlock.h; path = FBRetainCycleDetector/Graph/FBObjectiveCBlock.h; sourceTree = "<group>"; };
+		9D7463281C537BDE76B987F94A54D8D8 /* MLeaksFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MLeaksFinder.framework; path = MLeaksFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7DDE82C533A4A88F75B7A323433591 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DBF9D93AAFEEB9F7D84627BED24538C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A14B675222BF8DAB2A49D5D536992E8E /* Pods-BlockLeaksKiller_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockLeaksKiller_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A2FEB2C41BCD57087130F4921248B91C /* FBObjectGraphConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectGraphConfiguration.m; path = FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.m; sourceTree = "<group>"; };
+		A412CC6B89F4644F4836AFD11C4BDDF5 /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MemoryLeak.h"; path = "MLeaksFinder/NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		A4B44178FFB5C1BF36B035A5B0C2D381 /* FBNodeEnumerator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBNodeEnumerator.mm; path = FBRetainCycleDetector/Detector/FBNodeEnumerator.mm; sourceTree = "<group>"; };
+		A9BA69A2346455A5F486CE82E4FBFF82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3E9F28D3C458C1B63EF60C49EBBA3D /* FBAssociationManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAssociationManager.mm; path = FBRetainCycleDetector/Associations/FBAssociationManager.mm; sourceTree = "<group>"; };
+		ADA9C41EE3E895FAC13377804BB4D5F8 /* BaseType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseType.h; path = FBRetainCycleDetector/Layout/Classes/Parser/BaseType.h; sourceTree = "<group>"; };
+		ADBC240B8180911E2EEF156BE2D27599 /* FBRetainCycleDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBRetainCycleDetector-umbrella.h"; sourceTree = "<group>"; };
+		AE02CEA282A68A167563AB1F1097DDEA /* MLeaksFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksFinder.h; path = MLeaksFinder/MLeaksFinder.h; sourceTree = "<group>"; };
+		B23E351AF59998CA1F153418616C6A77 /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISplitViewController+MemoryLeak.m"; path = "MLeaksFinder/UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		B3A015E1C3E7BB0E1A4055062C88071D /* FBRetainCycleDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBRetainCycleDetector.xcconfig; sourceTree = "<group>"; };
+		B4C513C9970AF3DBE9BF33F90F68EB16 /* MLeaksMessenger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLeaksMessenger.m; path = MLeaksFinder/MLeaksMessenger.m; sourceTree = "<group>"; };
+		B6048D496C658E94AC042D0A43331499 /* FBRetainCycleUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRetainCycleUtils.h; path = FBRetainCycleDetector/FBRetainCycleUtils.h; sourceTree = "<group>"; };
+		BA03188D64B65F65BA04E70ACB539239 /* FBBlockInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockInterface.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockInterface.h; sourceTree = "<group>"; };
+		BB56ADCB798A3FEFDF257D80F4617073 /* FBBlockStrongRelationDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBBlockStrongRelationDetector.m; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongRelationDetector.m; sourceTree = "<group>"; };
+		BB706560187859475C3E46AAC469B92A /* FBObjectReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectReference.h; sourceTree = "<group>"; };
+		BCE69894256970678A51CE3E322CDC2F /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		BEAC004F377122CCD10FECA7A0D0F8B0 /* FBObjectiveCObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCObject.h; path = FBRetainCycleDetector/Graph/FBObjectiveCObject.h; sourceTree = "<group>"; };
+		BF7AF88056FAF755A574FD3704D6C1AD /* FBRetainCycleDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBRetainCycleDetector-prefix.pch"; sourceTree = "<group>"; };
+		C0BCD1023060B625606F3A3860DB953A /* Struct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Struct.h; path = FBRetainCycleDetector/Layout/Classes/Parser/Struct.h; sourceTree = "<group>"; };
+		C2FC5ADEF6834FBA1A00D443B67350DB /* FBObjectiveCGraphElement.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBObjectiveCGraphElement.mm; path = FBRetainCycleDetector/Graph/FBObjectiveCGraphElement.mm; sourceTree = "<group>"; };
+		C6675A59ED9AB1808EA9ADB69F3E2005 /* FBRetainCycleDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRetainCycleDetector.h; path = FBRetainCycleDetector/Detector/FBRetainCycleDetector.h; sourceTree = "<group>"; };
+		C7DF00B710FB0854EA8BCFE3769E5387 /* FBBlockStrongLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBBlockStrongLayout.m; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongLayout.m; sourceTree = "<group>"; };
+		C9DBBF8B10EAA8FA5C6F79D974E627FF /* BlockLeaksKiller-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlockLeaksKiller-dummy.m"; sourceTree = "<group>"; };
+		CE68C976E70B47C4E673BCBDE7867B1D /* UITouch+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch+MemoryLeak.m"; path = "MLeaksFinder/UITouch+MemoryLeak.m"; sourceTree = "<group>"; };
+		CF1547225AC7ABEBB21A7BB3E2C2853E /* FBObjectGraphConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectGraphConfiguration.h; path = FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.h; sourceTree = "<group>"; };
+		D01D24664CDD2C44B5E7AE2A8E7A9A5A /* MLeaksFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLeaksFinder.modulemap; sourceTree = "<group>"; };
+		D053CAC17E083F9E253E2604062AFB26 /* FBObjectInStructReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectInStructReference.m; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectInStructReference.m; sourceTree = "<group>"; };
+		D4C0F353AF0193E43B7AEF27FFCE72EB /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPageViewController+MemoryLeak.h"; path = "MLeaksFinder/UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		D55602D1D19100526482FC60D286B7BE /* FBRetainCycleDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBRetainCycleDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FED7326D43425BE9C242409D3AAE10 /* MLeaksFinder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLeaksFinder.xcconfig; sourceTree = "<group>"; };
+		D80EAA725D05474CD05D0F80463373FD /* Pods-BlockLeaksKiller_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlockLeaksKiller_Example-dummy.m"; sourceTree = "<group>"; };
+		D9E624D89FDAD432A0680E07B9098ECC /* BlockLeaksKiller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlockLeaksKiller.framework; path = BlockLeaksKiller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4AEB42BF0172236D67B5BEC0A0DD56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9D2825D67F8433D0894CF116345F54 /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPageViewController+MemoryLeak.m"; path = "MLeaksFinder/UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		DD6ECB6F80B87B319BA97512CD83F103 /* MLeaksFinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLeaksFinder-prefix.pch"; sourceTree = "<group>"; };
+		DEA837BAFD2B6FF135CEA0CFB97B8C97 /* Pods-BlockLeaksKiller_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlockLeaksKiller_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF606F6A46C7D846C01F055D2C0F3F10 /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+MemoryLeak.m"; path = "MLeaksFinder/UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		E2628333225E92C285918A5A89C199BB /* FBObjectiveCBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectiveCBlock.m; path = FBRetainCycleDetector/Graph/FBObjectiveCBlock.m; sourceTree = "<group>"; };
+		E5AE6071F09438B8CDF50621C8758008 /* Pods_BlockLeaksKiller_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlockLeaksKiller_Example.framework; path = "Pods-BlockLeaksKiller_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A8E0B24F7AC2120319F99993263B52 /* UITouch+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch+MemoryLeak.h"; path = "MLeaksFinder/UITouch+MemoryLeak.h"; sourceTree = "<group>"; };
+		EBF602E928BAD0625B58BB597D7582CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC40DF33D26E40490655998A2D332423 /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+MemoryLeak.h"; path = "MLeaksFinder/UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
+		EFA9C7E11AF260D89EF0A32DDDCE78D1 /* BlockLeaksKiller.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BlockLeaksKiller.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F18B9643E19D3067F3DBB93052FA63D7 /* Pods-BlockLeaksKiller_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlockLeaksKiller_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F31A9607D532D842BB75BA89F71F29A9 /* FBObjectiveCObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectiveCObject.m; path = FBRetainCycleDetector/Graph/FBObjectiveCObject.m; sourceTree = "<group>"; };
+		F3AC53DA39943D5371665C74A2E0E353 /* FBStandardGraphEdgeFilters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBStandardGraphEdgeFilters.h; path = FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.h; sourceTree = "<group>"; };
+		F42E0C3FE60F99CEFE2C18BC10FFB752 /* FBObjectiveCGraphElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCGraphElement.h; path = FBRetainCycleDetector/Graph/FBObjectiveCGraphElement.h; sourceTree = "<group>"; };
+		F4DC4EC29B7983CAAC45D2DD92428B0E /* Pods-BlockLeaksKiller_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlockLeaksKiller_Example-resources.sh"; sourceTree = "<group>"; };
+		FB2C69CD13FA4C987F01777DED19F60C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD08FA0CE0E7ED4C49372493E6B14A10 /* FBAssociationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAssociationManager.h; path = FBRetainCycleDetector/Associations/FBAssociationManager.h; sourceTree = "<group>"; };
+		FFCD10931432B79E61B246144739E62E /* FBClassStrongLayoutHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBClassStrongLayoutHelpers.h; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayoutHelpers.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972FC4312F6573ECDC4A2CB6A16DD144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E543EB9CF29FC383F3F3421CA02C5A76 /* CoreGraphics.framework in Frameworks */,
+				DFCC81EBA54BCC3E888E4BF293AFCB2B /* Foundation.framework in Frameworks */,
+				7A428A18D87650110F022B163B340D00 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF7A02A4A759AF42AD51B453004E770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C836E32CD02873A1A0B5125C916DA0B /* FBRetainCycleDetector.framework in Frameworks */,
+				80FBE6FAA8AEC5A37D0A47093635AF4C /* Foundation.framework in Frameworks */,
+				A105FDF5F024B735FFE7C7AC23A97230 /* MLeaksFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8F3E2A1EAA56EBA805D5E243C24B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD23BF5CECD66DD41BE0710B0A140DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2225DB6C6C622617A694F2006EAAE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973CB6F8294AE39573BB6370641B078C /* FBRetainCycleDetector.framework in Frameworks */,
+				682A8A8CDF976FB955BDD9F4F4202F2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0055BC4AC2388697CCB415DCD56463B3 /* BlockLeaksKiller */ = {
+			isa = PBXGroup;
+			children = (
+				1B58D52167AAF877BF5F2D3F3B3EFAF1 /* NSObject+BLKCoreExtension.m */,
+				09599FDD758807FD73B7C48E61A53223 /* Pod */,
+				B6680F0FA9FD43EEBFBD4F9AD3A48B1A /* Support Files */,
+			);
+			name = BlockLeaksKiller;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		09599FDD758807FD73B7C48E61A53223 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9C7E11AF260D89EF0A32DDDCE78D1 /* BlockLeaksKiller.podspec */,
+				EBF602E928BAD0625B58BB597D7582CB /* LICENSE */,
+				53126A943D2111569A9D99504B32814A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0FC45CC4430F98549F4BD1625E2FA0EE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0055BC4AC2388697CCB415DCD56463B3 /* BlockLeaksKiller */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2EE40262EBCD106EE093C63D137DA58D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA4AEB42BF0172236D67B5BEC0A0DD56 /* Info.plist */,
+				D01D24664CDD2C44B5E7AE2A8E7A9A5A /* MLeaksFinder.modulemap */,
+				D5FED7326D43425BE9C242409D3AAE10 /* MLeaksFinder.xcconfig */,
+				1484C8A74A4535B665236000C16698BA /* MLeaksFinder-dummy.m */,
+				DD6ECB6F80B87B319BA97512CD83F103 /* MLeaksFinder-prefix.pch */,
+				6C42F490BA6B554748A9FEDB8AFA09A5 /* MLeaksFinder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MLeaksFinder";
+			sourceTree = "<group>";
+		};
+		3B71332A7CD2111B9A1FF3C82591A149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D55602D1D19100526482FC60D286B7BE /* FBRetainCycleDetector.framework */,
+				509F6C9DE46971E5F9512C7DD32F82A3 /* MLeaksFinder.framework */,
+				BE4A6739D273EE444771A7C60B0F9CB3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CE1D1B856878EDFD0E001AD5348FED6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDC446844CE01BAFFA2A769292EB70 /* FBRetainCycleDetector.modulemap */,
+				B3A015E1C3E7BB0E1A4055062C88071D /* FBRetainCycleDetector.xcconfig */,
+				509337B8E919CBD15371391CF8B47BE8 /* FBRetainCycleDetector-dummy.m */,
+				BF7AF88056FAF755A574FD3704D6C1AD /* FBRetainCycleDetector-prefix.pch */,
+				ADBC240B8180911E2EEF156BE2D27599 /* FBRetainCycleDetector-umbrella.h */,
+				FB2C69CD13FA4C987F01777DED19F60C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBRetainCycleDetector";
+			sourceTree = "<group>";
+		};
+		404235B6313930609ADEC2A34F2911DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E624D89FDAD432A0680E07B9098ECC /* BlockLeaksKiller.framework */,
+				3755F1C057499061BF3D6DC49E280F22 /* FBRetainCycleDetector.framework */,
+				9D7463281C537BDE76B987F94A54D8D8 /* MLeaksFinder.framework */,
+				E5AE6071F09438B8CDF50621C8758008 /* Pods_BlockLeaksKiller_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5012A24F4DB32EB3FE006B725E51DA0D /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				44B2E881D0BCA69C665F39492FD842FE /* MLeakedObjectProxy.h */,
+				3169BB7920613B46394D235CAF7005EF /* MLeakedObjectProxy.m */,
+				AE02CEA282A68A167563AB1F1097DDEA /* MLeaksFinder.h */,
+				261EA69869CBBE19290390E5345B6287 /* MLeaksMessenger.h */,
+				B4C513C9970AF3DBE9BF33F90F68EB16 /* MLeaksMessenger.m */,
+				A412CC6B89F4644F4836AFD11C4BDDF5 /* NSObject+MemoryLeak.h */,
+				4EE20F0933BFA7A2E80F51CE124CE219 /* NSObject+MemoryLeak.m */,
+				EC40DF33D26E40490655998A2D332423 /* UIApplication+MemoryLeak.h */,
+				114782DACE5AFC687037360539E587D1 /* UIApplication+MemoryLeak.m */,
+				4C80AFD5B1E1E2AD2A027F137C4C3962 /* UINavigationController+MemoryLeak.h */,
+				2B64542D93944FA514D211EB9478CFEF /* UINavigationController+MemoryLeak.m */,
+				D4C0F353AF0193E43B7AEF27FFCE72EB /* UIPageViewController+MemoryLeak.h */,
+				DA9D2825D67F8433D0894CF116345F54 /* UIPageViewController+MemoryLeak.m */,
+				4F4728313956A3A5EC3EF4B809971899 /* UISplitViewController+MemoryLeak.h */,
+				B23E351AF59998CA1F153418616C6A77 /* UISplitViewController+MemoryLeak.m */,
+				90DEA98A26E05208E9620702E95BBFFB /* UITabBarController+MemoryLeak.h */,
+				DF606F6A46C7D846C01F055D2C0F3F10 /* UITabBarController+MemoryLeak.m */,
+				E9A8E0B24F7AC2120319F99993263B52 /* UITouch+MemoryLeak.h */,
+				CE68C976E70B47C4E673BCBDE7867B1D /* UITouch+MemoryLeak.m */,
+				66C0FC05EB5CA81D9B16FD8E2076724F /* UIView+MemoryLeak.h */,
+				3F2A3AD14A143B575968F8E8FF6AEFEF /* UIView+MemoryLeak.m */,
+				7EB36CB8E9B4E5325D94E8E6B07B03E3 /* UIViewController+MemoryLeak.h */,
+				068D4868CF3924D5E192739EEABE9F62 /* UIViewController+MemoryLeak.m */,
+				2EE40262EBCD106EE093C63D137DA58D /* Support Files */,
+			);
+			name = MLeaksFinder;
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
+		6453E1C569C04A1323346BD99E3A443E /* Pods-BlockLeaksKiller_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A9BA69A2346455A5F486CE82E4FBFF82 /* Info.plist */,
+				34D9D09FE1D8D654514AF4028D99B2A0 /* Pods-BlockLeaksKiller_Example.modulemap */,
+				7AF34D609E17163543702BCC36E2BBB9 /* Pods-BlockLeaksKiller_Example-acknowledgements.markdown */,
+				381923FBDD9499EC6E24BB413C995590 /* Pods-BlockLeaksKiller_Example-acknowledgements.plist */,
+				D80EAA725D05474CD05D0F80463373FD /* Pods-BlockLeaksKiller_Example-dummy.m */,
+				F18B9643E19D3067F3DBB93052FA63D7 /* Pods-BlockLeaksKiller_Example-frameworks.sh */,
+				F4DC4EC29B7983CAAC45D2DD92428B0E /* Pods-BlockLeaksKiller_Example-resources.sh */,
+				DEA837BAFD2B6FF135CEA0CFB97B8C97 /* Pods-BlockLeaksKiller_Example-umbrella.h */,
+				A14B675222BF8DAB2A49D5D536992E8E /* Pods-BlockLeaksKiller_Example.debug.xcconfig */,
+				2E446217CEF4DC815AE82D6CACC27CFE /* Pods-BlockLeaksKiller_Example.release.xcconfig */,
+			);
+			name = "Pods-BlockLeaksKiller_Example";
+			path = "Target Support Files/Pods-BlockLeaksKiller_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0FC45CC4430F98549F4BD1625E2FA0EE /* Development Pods */,
+				3B71332A7CD2111B9A1FF3C82591A149 /* Frameworks */,
+				8135A002F37611EFE57C59DB22F6742F /* Pods */,
+				404235B6313930609ADEC2A34F2911DC /* Products */,
+				E1B9B31704240F8CF5D23A78B2E6733E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8135A002F37611EFE57C59DB22F6742F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3DC258C247006D1A27DF49CE9A0CDCB /* FBRetainCycleDetector */,
+				5012A24F4DB32EB3FE006B725E51DA0D /* MLeaksFinder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3DC258C247006D1A27DF49CE9A0CDCB /* FBRetainCycleDetector */ = {
+			isa = PBXGroup;
+			children = (
+				ADA9C41EE3E895FAC13377804BB4D5F8 /* BaseType.h */,
+				FD08FA0CE0E7ED4C49372493E6B14A10 /* FBAssociationManager.h */,
+				AC3E9F28D3C458C1B63EF60C49EBBA3D /* FBAssociationManager.mm */,
+				3ACDBC3B378CD9F7B012A34AF7DF5DD3 /* FBAssociationManager+Internal.h */,
+				BA03188D64B65F65BA04E70ACB539239 /* FBBlockInterface.h */,
+				8636C01CB273F1D441825629130C7C9F /* FBBlockStrongLayout.h */,
+				C7DF00B710FB0854EA8BCFE3769E5387 /* FBBlockStrongLayout.m */,
+				1D885E63B6EAE4386775E8F138BECE89 /* FBBlockStrongRelationDetector.h */,
+				BB56ADCB798A3FEFDF257D80F4617073 /* FBBlockStrongRelationDetector.m */,
+				7C1BA023AB05FC2875D4B1549818023E /* FBClassStrongLayout.h */,
+				9509F3B80A7AD2D3A57BB47991CA2EE7 /* FBClassStrongLayout.mm */,
+				FFCD10931432B79E61B246144739E62E /* FBClassStrongLayoutHelpers.h */,
+				310DCDF819C5F6E9C6733F120BDF311A /* FBClassStrongLayoutHelpers.m */,
+				1FC348B95D79E411F9B042251CA3AABF /* FBIvarReference.h */,
+				54D4A8C8D56976E6AACF744423A655E8 /* FBIvarReference.m */,
+				16B401F116CF3E027D6FB9EE1A93C77B /* FBNodeEnumerator.h */,
+				A4B44178FFB5C1BF36B035A5B0C2D381 /* FBNodeEnumerator.mm */,
+				CF1547225AC7ABEBB21A7BB3E2C2853E /* FBObjectGraphConfiguration.h */,
+				A2FEB2C41BCD57087130F4921248B91C /* FBObjectGraphConfiguration.m */,
+				4111BC8F43944BEA32BCE9BCB5FF139F /* FBObjectInStructReference.h */,
+				D053CAC17E083F9E253E2604062AFB26 /* FBObjectInStructReference.m */,
+				9807B9458D66C6A9186045E81F01C28D /* FBObjectiveCBlock.h */,
+				E2628333225E92C285918A5A89C199BB /* FBObjectiveCBlock.m */,
+				F42E0C3FE60F99CEFE2C18BC10FFB752 /* FBObjectiveCGraphElement.h */,
+				C2FC5ADEF6834FBA1A00D443B67350DB /* FBObjectiveCGraphElement.mm */,
+				60FC50F1882012F50708B178CF9DDAEF /* FBObjectiveCGraphElement+Internal.h */,
+				7D68D98BCDEA229DF268587D2762C49A /* FBObjectiveCNSCFTimer.h */,
+				71E9C316954C48915237D611CDAC383E /* FBObjectiveCNSCFTimer.mm */,
+				BEAC004F377122CCD10FECA7A0D0F8B0 /* FBObjectiveCObject.h */,
+				F31A9607D532D842BB75BA89F71F29A9 /* FBObjectiveCObject.m */,
+				BB706560187859475C3E46AAC469B92A /* FBObjectReference.h */,
+				C6675A59ED9AB1808EA9ADB69F3E2005 /* FBRetainCycleDetector.h */,
+				203DB5B69C049AFF6236C0D56F34A8EB /* FBRetainCycleDetector.mm */,
+				969E92AF4B5CD4EC379D220E19D206AB /* FBRetainCycleDetector+Internal.h */,
+				B6048D496C658E94AC042D0A43331499 /* FBRetainCycleUtils.h */,
+				3067E1811CEB863ED76FFE05DFCD845C /* FBRetainCycleUtils.m */,
+				F3AC53DA39943D5371665C74A2E0E353 /* FBStandardGraphEdgeFilters.h */,
+				8B3677A5D1F066D9A581BB3343666D67 /* FBStandardGraphEdgeFilters.mm */,
+				820AD75CD1A45E58487EDCDA44905AD3 /* FBStructEncodingParser.h */,
+				88091A7915D412006A58B4573811EC30 /* FBStructEncodingParser.mm */,
+				3321F298434E51DF415210FDBF0C1CFF /* fishhook.c */,
+				BCE69894256970678A51CE3E322CDC2F /* fishhook.h */,
+				C0BCD1023060B625606F3A3860DB953A /* Struct.h */,
+				8D37DECCECB588449AFE714AE25ACB9F /* Struct.mm */,
+				17B6666BFD494C6EE113333758644E8B /* Type.h */,
+				3CE1D1B856878EDFD0E001AD5348FED6 /* Support Files */,
+			);
+			name = FBRetainCycleDetector;
+			path = FBRetainCycleDetector;
+			sourceTree = "<group>";
+		};
+		B6680F0FA9FD43EEBFBD4F9AD3A48B1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CAF74FD49A150A28EAAAC7E1014C59 /* BlockLeaksKiller.modulemap */,
+				4EEC50F7E98EEEAEFE54F9CE98377ABE /* BlockLeaksKiller.xcconfig */,
+				C9DBBF8B10EAA8FA5C6F79D974E627FF /* BlockLeaksKiller-dummy.m */,
+				5AA49E094A7591042A8BF45257421E76 /* BlockLeaksKiller-prefix.pch */,
+				263E98327A157B87322A92ECB485B694 /* BlockLeaksKiller-umbrella.h */,
+				9D7DDE82C533A4A88F75B7A323433591 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BlockLeaksKiller";
+			sourceTree = "<group>";
+		};
+		BE4A6739D273EE444771A7C60B0F9CB3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				58C9C2D2855D674AACF006903996F370 /* CoreGraphics.framework */,
+				9DBF9D93AAFEEB9F7D84627BED24538C /* Foundation.framework */,
+				822ADC69B9EE63AE25DE234425717603 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1B9B31704240F8CF5D23A78B2E6733E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6453E1C569C04A1323346BD99E3A443E /* Pods-BlockLeaksKiller_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CEFBBDB7F91C49405894E4335B8ACEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45007C64263A16DA0BB51C2C1C14677 /* BlockLeaksKiller-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453ECEB37DF685C9F0BF1D07893F2769 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66728032D728B596BD51CD4653128D5 /* Pods-BlockLeaksKiller_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54607BE4FC3C4972C4364DF1398F1261 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4998272B0FCEE8D9A170EEF82640C9BD /* BaseType.h in Headers */,
+				5B46C7ABD452DBC898D1387EC950936A /* FBAssociationManager+Internal.h in Headers */,
+				2AD5696F2EDE4CB6EA5ECAD83018070B /* FBAssociationManager.h in Headers */,
+				3DD05227B71C8C0E29DE7373EBCA9C3A /* FBBlockInterface.h in Headers */,
+				552804F8AB4B1371EC4959CB984FE818 /* FBBlockStrongLayout.h in Headers */,
+				D46B23EE36D370A64D3C51F0BBD22266 /* FBBlockStrongRelationDetector.h in Headers */,
+				87498DD308FC5ACF8957F4618D791DD2 /* FBClassStrongLayout.h in Headers */,
+				F84E13EED14F54DC8F8270729A5F3F33 /* FBClassStrongLayoutHelpers.h in Headers */,
+				F0CFF7A10C894D8679EAECD5FDA6C29B /* FBIvarReference.h in Headers */,
+				836336D9013B0F5AD8B04E976AED034D /* FBNodeEnumerator.h in Headers */,
+				6FC6987310386C2330826252C5A4F669 /* FBObjectGraphConfiguration.h in Headers */,
+				8C69F7B01CFB85A6ECE7A656E81DC602 /* FBObjectInStructReference.h in Headers */,
+				6BA3C3220172D7D7B91FD10A7B92FAA4 /* FBObjectiveCBlock.h in Headers */,
+				749FF3B7DB4E675A7DAF771430CD7740 /* FBObjectiveCGraphElement+Internal.h in Headers */,
+				3217FB8B743F11A3D2CE90AA62AA0EB6 /* FBObjectiveCGraphElement.h in Headers */,
+				63181AE4ADB3297842B21AAC0597FD7F /* FBObjectiveCNSCFTimer.h in Headers */,
+				399456B1653F2E75AA91190F3B6DA5EF /* FBObjectiveCObject.h in Headers */,
+				501AD315729920D86BB52F748D39351B /* FBObjectReference.h in Headers */,
+				A4FB4C1AA0ECB7FF0FA3F94FA7310E4D /* FBRetainCycleDetector+Internal.h in Headers */,
+				430EABFBF61004AAA335071A02F17E14 /* FBRetainCycleDetector-umbrella.h in Headers */,
+				27F66D4DF04833D74D8A0BFD1C80A19A /* FBRetainCycleDetector.h in Headers */,
+				161C910E468E12F8BE6683EDD834B0E2 /* FBRetainCycleUtils.h in Headers */,
+				05EE88940105591E83180515096D87BA /* FBStandardGraphEdgeFilters.h in Headers */,
+				6FA679FAF7027601C8D2504BFAF1F797 /* FBStructEncodingParser.h in Headers */,
+				B8DB7D24FA5F60486522CC102017F60B /* fishhook.h in Headers */,
+				6344DA6529E17DD402284B30D7DCCBC0 /* Struct.h in Headers */,
+				C8865AD1371A0DB3067C72F1F4EB023A /* Type.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE8D87D9DB73005E5B71E6D4348F23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D128B12687F17B1E7464BF99017A8C4E /* MLeakedObjectProxy.h in Headers */,
+				2757F49285E0EC19B7166A2C1335405A /* MLeaksFinder-umbrella.h in Headers */,
+				EA815680672C00087B422C76B3A6A9B2 /* MLeaksFinder.h in Headers */,
+				78CCBBA27DE5F5E16D2DD5068B1AE95B /* MLeaksMessenger.h in Headers */,
+				6353F853A972299E7B48A59DD1071B80 /* NSObject+MemoryLeak.h in Headers */,
+				04506A87BE11BEF43B6ACE20E2193261 /* UIApplication+MemoryLeak.h in Headers */,
+				5BBC2CFDF00D942247A8BC993C1B8351 /* UINavigationController+MemoryLeak.h in Headers */,
+				25A39EEEA399B95D317112B8DB2D9449 /* UIPageViewController+MemoryLeak.h in Headers */,
+				1C377CF3C298EDFA1F2BA61E9B2F5ADC /* UISplitViewController+MemoryLeak.h in Headers */,
+				AE55DE266EF6DF501490385A539DA9BB /* UITabBarController+MemoryLeak.h in Headers */,
+				DF63BD84CB70DE514136AB2812DD1ECB /* UITouch+MemoryLeak.h in Headers */,
+				9022A1B8C895FBFDC095B92D1A42B5B1 /* UIView+MemoryLeak.h in Headers */,
+				C5EAE7C7AE04615C2F2A798B2C371007 /* UIViewController+MemoryLeak.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		642EEEAA1CDCC9551BA635B00FF9078F /* BlockLeaksKiller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF545BD4A8B54E3B9FCEDEFFAF2F730 /* Build configuration list for PBXNativeTarget "BlockLeaksKiller" */;
+			buildPhases = (
+				A4D58C5503F2843B8B00006DE9E2FEB1 /* Sources */,
+				CBF7A02A4A759AF42AD51B453004E770 /* Frameworks */,
+				3CEFBBDB7F91C49405894E4335B8ACEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FC5A0E95CF621D8E5201E9F8FBA95E /* PBXTargetDependency */,
+				4D265D8492555F213B5D41110FE6C197 /* PBXTargetDependency */,
+			);
+			name = BlockLeaksKiller;
+			productName = BlockLeaksKiller;
+			productReference = D9E624D89FDAD432A0680E07B9098ECC /* BlockLeaksKiller.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6945D1DF7B177028CFB4F3D5E94437B5 /* FBRetainCycleDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA54ACAAFA3B68492FB7873AFAA67046 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector" */;
+			buildPhases = (
+				E0432CAA65821063B12940E7DFBE3BE8 /* Sources */,
+				972FC4312F6573ECDC4A2CB6A16DD144 /* Frameworks */,
+				54607BE4FC3C4972C4364DF1398F1261 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBRetainCycleDetector;
+			productName = FBRetainCycleDetector;
+			productReference = 3755F1C057499061BF3D6DC49E280F22 /* FBRetainCycleDetector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		960E41433D95108DF7E7818934B3554F /* MLeaksFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083F119E5D6E079C590C983521F9C7BE /* Build configuration list for PBXNativeTarget "MLeaksFinder" */;
+			buildPhases = (
+				7F8BEFF54A019743A6F5DCA27D449E6A /* Sources */,
+				F2225DB6C6C622617A694F2006EAAE17 /* Frameworks */,
+				72AE8D87D9DB73005E5B71E6D4348F23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B53A79CBCEE2C914089110009A2420 /* PBXTargetDependency */,
+			);
+			name = MLeaksFinder;
+			productName = MLeaksFinder;
+			productReference = 9D7463281C537BDE76B987F94A54D8D8 /* MLeaksFinder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA92BA4744590FD81C7D946BE7FF61DC /* Pods-BlockLeaksKiller_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EB3820EC6867A4D3C2C84A2140176F /* Build configuration list for PBXNativeTarget "Pods-BlockLeaksKiller_Example" */;
+			buildPhases = (
+				3E5CC5B96CE32499DEAF6372EAB73541 /* Sources */,
+				EC8F3E2A1EAA56EBA805D5E243C24B59 /* Frameworks */,
+				453ECEB37DF685C9F0BF1D07893F2769 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6418CD9C6233DFE93018BDE5C084E22 /* PBXTargetDependency */,
+				0551F23DDC46F4270280FA620F30CB28 /* PBXTargetDependency */,
+				BD5B5925FE09C7EB4B2BCB8325FB5178 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlockLeaksKiller_Example";
+			productName = "Pods-BlockLeaksKiller_Example";
+			productReference = E5AE6071F09438B8CDF50621C8758008 /* Pods_BlockLeaksKiller_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 404235B6313930609ADEC2A34F2911DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				642EEEAA1CDCC9551BA635B00FF9078F /* BlockLeaksKiller */,
+				6945D1DF7B177028CFB4F3D5E94437B5 /* FBRetainCycleDetector */,
+				960E41433D95108DF7E7818934B3554F /* MLeaksFinder */,
+				AA92BA4744590FD81C7D946BE7FF61DC /* Pods-BlockLeaksKiller_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E5CC5B96CE32499DEAF6372EAB73541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08ACE3A1100D358B6559504FC0B30822 /* Pods-BlockLeaksKiller_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8BEFF54A019743A6F5DCA27D449E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139E776CDE7DA62A2351028339C5E965 /* MLeakedObjectProxy.m in Sources */,
+				00B33E95527573548D9BB228AC1882C7 /* MLeaksFinder-dummy.m in Sources */,
+				D5BC51CAF722E632DEA8325A114D7AAA /* MLeaksMessenger.m in Sources */,
+				6D9DE65FC74FE176C4AA35B1E475BAFB /* NSObject+MemoryLeak.m in Sources */,
+				11BC4F2EC2661DB7632570C0826EBF9E /* UIApplication+MemoryLeak.m in Sources */,
+				160DF0C58B8280A6330051048EBD11BF /* UINavigationController+MemoryLeak.m in Sources */,
+				148C474EA07ADF45D73A5610A39F4EC3 /* UIPageViewController+MemoryLeak.m in Sources */,
+				5FCA21AA98BDF5B327E7D3EA356471F2 /* UISplitViewController+MemoryLeak.m in Sources */,
+				A2A2643C1F7388D0248C9ABF925CD53C /* UITabBarController+MemoryLeak.m in Sources */,
+				D20AECA3728CB9A4F65CF12245BFB158 /* UITouch+MemoryLeak.m in Sources */,
+				64499485A594C66F86D06F1672460711 /* UIView+MemoryLeak.m in Sources */,
+				0FD561FCC59D909EB0314282E970C07B /* UIViewController+MemoryLeak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D58C5503F2843B8B00006DE9E2FEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942DDA64BEE0AF072B0812A3A47948C8 /* BlockLeaksKiller-dummy.m in Sources */,
+				C2BE486AC341883443BE385281C788AB /* NSObject+BLKCoreExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0432CAA65821063B12940E7DFBE3BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070AADC35B6509A2777530EE4F477028 /* FBAssociationManager.mm in Sources */,
+				85D4FD8008434EBB4BAAC068126087D1 /* FBBlockStrongLayout.m in Sources */,
+				2D92EBFA62E3EB9D7AAD8B83D83BB356 /* FBBlockStrongRelationDetector.m in Sources */,
+				D474ECB401830C4A3ECB60C900A1465D /* FBClassStrongLayout.mm in Sources */,
+				8A60D88AB34884B432E088858CA595C4 /* FBClassStrongLayoutHelpers.m in Sources */,
+				9F2D31BDCA36D0C158F225E235E7700A /* FBIvarReference.m in Sources */,
+				4573E74BE95C8B3AD7C88EBAAE86C571 /* FBNodeEnumerator.mm in Sources */,
+				6F6AEC426FEC87DA74683262902D7C3E /* FBObjectGraphConfiguration.m in Sources */,
+				19B8C6766B2D9AB0D1FED885DA99990E /* FBObjectInStructReference.m in Sources */,
+				2421DF481FFAE61CFB67CE154D556FD4 /* FBObjectiveCBlock.m in Sources */,
+				D8FAEE18CAFC1CB062A0F4466C5092D0 /* FBObjectiveCGraphElement.mm in Sources */,
+				1D80088D9CDF0FB0E73017A93B066A2F /* FBObjectiveCNSCFTimer.mm in Sources */,
+				F3CD25C19B9D1CEBD69F066BA037C660 /* FBObjectiveCObject.m in Sources */,
+				DBBE35349656427B769E07DD58F5888D /* FBRetainCycleDetector-dummy.m in Sources */,
+				A41B9858B53B817AF0C876F44BE559EA /* FBRetainCycleDetector.mm in Sources */,
+				684AAA915E668B285BB4C1EB99142611 /* FBRetainCycleUtils.m in Sources */,
+				9F47BAD84C40BC2624F2BA076BBC5D2F /* FBStandardGraphEdgeFilters.mm in Sources */,
+				D598B76CA9393D7796F7E70B04FFAE18 /* FBStructEncodingParser.mm in Sources */,
+				C9817F8EC58C07DB7A431A5D45C039F6 /* fishhook.c in Sources */,
+				27FD97289468F5A5D4F173F90D749553 /* Struct.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0551F23DDC46F4270280FA620F30CB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBRetainCycleDetector;
+			target = 6945D1DF7B177028CFB4F3D5E94437B5 /* FBRetainCycleDetector */;
+			targetProxy = 3FAEB34A53797C6D4E0AC616F659B0AE /* PBXContainerItemProxy */;
+		};
+		38FC5A0E95CF621D8E5201E9F8FBA95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBRetainCycleDetector;
+			target = 6945D1DF7B177028CFB4F3D5E94437B5 /* FBRetainCycleDetector */;
+			targetProxy = 4DDE49E85C700397829B3703CF646996 /* PBXContainerItemProxy */;
+		};
+		4D265D8492555F213B5D41110FE6C197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLeaksFinder;
+			target = 960E41433D95108DF7E7818934B3554F /* MLeaksFinder */;
+			targetProxy = 97EF5662772160B7E41FBAE1100036F5 /* PBXContainerItemProxy */;
+		};
+		BD5B5925FE09C7EB4B2BCB8325FB5178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLeaksFinder;
+			target = 960E41433D95108DF7E7818934B3554F /* MLeaksFinder */;
+			targetProxy = E645A4D3CFA05710B4E6162B1DBF8DB6 /* PBXContainerItemProxy */;
+		};
+		C0B53A79CBCEE2C914089110009A2420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBRetainCycleDetector;
+			target = 6945D1DF7B177028CFB4F3D5E94437B5 /* FBRetainCycleDetector */;
+			targetProxy = 15BD8293B194E81C95E2D85AA85AA3C6 /* PBXContainerItemProxy */;
+		};
+		E6418CD9C6233DFE93018BDE5C084E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlockLeaksKiller;
+			target = 642EEEAA1CDCC9551BA635B00FF9078F /* BlockLeaksKiller */;
+			targetProxy = 493D56F2DC383B0AB9ABFAB468FADA3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16407C5B741D743D7998228254EC3BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E446217CEF4DC815AE82D6CACC27CFE /* Pods-BlockLeaksKiller_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockLeaksKiller_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockLeaksKiller_Example/Pods-BlockLeaksKiller_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E0A181235259AC17466F75C2381D8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14B675222BF8DAB2A49D5D536992E8E /* Pods-BlockLeaksKiller_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockLeaksKiller_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockLeaksKiller_Example/Pods-BlockLeaksKiller_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E5738DBB466327CFBE7C1AC26A67B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A015E1C3E7BB0E1A4055062C88071D /* FBRetainCycleDetector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBRetainCycleDetector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector.modulemap";
+				PRODUCT_MODULE_NAME = FBRetainCycleDetector;
+				PRODUCT_NAME = FBRetainCycleDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		742A7BCC72234B4A0A195A9864C8874C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FED7326D43425BE9C242409D3AAE10 /* MLeaksFinder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLeaksFinder/MLeaksFinder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLeaksFinder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLeaksFinder/MLeaksFinder.modulemap";
+				PRODUCT_MODULE_NAME = MLeaksFinder;
+				PRODUCT_NAME = MLeaksFinder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		96D74EB56A93A7E96C1BB74AB1F95742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FED7326D43425BE9C242409D3AAE10 /* MLeaksFinder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLeaksFinder/MLeaksFinder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLeaksFinder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLeaksFinder/MLeaksFinder.modulemap";
+				PRODUCT_MODULE_NAME = MLeaksFinder;
+				PRODUCT_NAME = MLeaksFinder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C76C5967934831A2EA72A716F22813E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEC50F7E98EEEAEFE54F9CE98377ABE /* BlockLeaksKiller.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlockLeaksKiller/BlockLeaksKiller-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlockLeaksKiller/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlockLeaksKiller/BlockLeaksKiller.modulemap";
+				PRODUCT_MODULE_NAME = BlockLeaksKiller;
+				PRODUCT_NAME = BlockLeaksKiller;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9DF373F62B3ADDCAD5AD80993A84801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEC50F7E98EEEAEFE54F9CE98377ABE /* BlockLeaksKiller.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlockLeaksKiller/BlockLeaksKiller-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlockLeaksKiller/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlockLeaksKiller/BlockLeaksKiller.modulemap";
+				PRODUCT_MODULE_NAME = BlockLeaksKiller;
+				PRODUCT_NAME = BlockLeaksKiller;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F1F1A3708A9262BDB6B0CA90A86369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A015E1C3E7BB0E1A4055062C88071D /* FBRetainCycleDetector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBRetainCycleDetector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector.modulemap";
+				PRODUCT_MODULE_NAME = FBRetainCycleDetector;
+				PRODUCT_NAME = FBRetainCycleDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083F119E5D6E079C590C983521F9C7BE /* Build configuration list for PBXNativeTarget "MLeaksFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742A7BCC72234B4A0A195A9864C8874C /* Debug */,
+				96D74EB56A93A7E96C1BB74AB1F95742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EB3820EC6867A4D3C2C84A2140176F /* Build configuration list for PBXNativeTarget "Pods-BlockLeaksKiller_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0A181235259AC17466F75C2381D8D0 /* Debug */,
+				16407C5B741D743D7998228254EC3BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF545BD4A8B54E3B9FCEDEFFAF2F730 /* Build configuration list for PBXNativeTarget "BlockLeaksKiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76C5967934831A2EA72A716F22813E5 /* Debug */,
+				D9DF373F62B3ADDCAD5AD80993A84801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA54ACAAFA3B68492FB7873AFAA67046 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F1F1A3708A9262BDB6B0CA90A86369 /* Debug */,
+				2E5738DBB466327CFBE7C1AC26A67B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

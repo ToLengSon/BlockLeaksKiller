@@ -1,11 +1,6 @@
 use_frameworks!
+inhibit_all_warnings!
 
 target 'BlockLeaksKiller_Example' do
   pod 'BlockLeaksKiller', :path => '../'
-
-  target 'BlockLeaksKiller_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

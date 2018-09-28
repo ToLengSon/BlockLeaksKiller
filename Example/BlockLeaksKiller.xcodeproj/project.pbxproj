@@ -23,7 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		86EFADACBD925D5C232432C9 /* Pods_BlockLeaksKiller_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D94B87BCB295D90AE81B7B4 /* Pods_BlockLeaksKiller_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		DE6A01BA896E74DAACD4EA45 /* Pods_BlockLeaksKiller_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA6E4EE488BDCAC9230990F /* Pods_BlockLeaksKiller_Tests.framework */; };
+		8AF519DD215DD5580020CFED /* BLKViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF519DC215DD5580020CFED /* BLKViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,11 +62,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D4FBAD47321DC49A7B4CBA3 /* BlockLeaksKiller.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BlockLeaksKiller.podspec; path = ../BlockLeaksKiller.podspec; sourceTree = "<group>"; };
-		AAB22BDE22424532D4872B5F /* Pods-BlockLeaksKiller_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockLeaksKiller_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockLeaksKiller_Tests/Pods-BlockLeaksKiller_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3BD1247BE4FCCD93306D8DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C7E8B49A9C1BCCA692A1F3A7 /* Pods-BlockLeaksKiller_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockLeaksKiller_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockLeaksKiller_Tests/Pods-BlockLeaksKiller_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DEC091CEB249ABE5AF9FB67E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8AF519DB215DD5580020CFED /* BLKViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLKViewController2.h; sourceTree = "<group>"; };
+		8AF519DC215DD5580020CFED /* BLKViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLKViewController2.m; sourceTree = "<group>"; };
+		8D4FBAD47321DC49A7B4CBA3 /* BlockLeaksKiller.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlockLeaksKiller.podspec; path = ../BlockLeaksKiller.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3BD1247BE4FCCD93306D8DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DEC091CEB249ABE5AF9FB67E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				DE6A01BA896E74DAACD4EA45 /* Pods_BlockLeaksKiller_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +136,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BLKViewController.h */,
 				6003F5A6195388D20070C39A /* BLKViewController.m */,
+				8AF519DB215DD5580020CFED /* BLKViewController2.h */,
+				8AF519DC215DD5580020CFED /* BLKViewController2.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -190,8 +191,6 @@
 			children = (
 				5B508DE0282721ACCC6BEED2 /* Pods-BlockLeaksKiller_Example.debug.xcconfig */,
 				59B4499FAA28879050709377 /* Pods-BlockLeaksKiller_Example.release.xcconfig */,
-				AAB22BDE22424532D4872B5F /* Pods-BlockLeaksKiller_Tests.debug.xcconfig */,
-				C7E8B49A9C1BCCA692A1F3A7 /* Pods-BlockLeaksKiller_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,7 +221,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BlockLeaksKiller_Tests" */;
 			buildPhases = (
-				A12ABECBFF2872BE74EC6BE7 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -312,24 +310,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A12ABECBFF2872BE74EC6BE7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BlockLeaksKiller_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FAE0DD7783B471433A24674D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,10 +318,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BlockLeaksKiller_Example/Pods-BlockLeaksKiller_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BlockLeaksKiller/BlockLeaksKiller.framework",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
+				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlockLeaksKiller.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -356,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* BLKAppDelegate.m in Sources */,
+				8AF519DD215DD5580020CFED /* BLKViewController2.m in Sources */,
 				6003F5A7195388D20070C39A /* BLKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -512,7 +497,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAB22BDE22424532D4872B5F /* Pods-BlockLeaksKiller_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -536,7 +520,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7E8B49A9C1BCCA692A1F3A7 /* Pods-BlockLeaksKiller_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

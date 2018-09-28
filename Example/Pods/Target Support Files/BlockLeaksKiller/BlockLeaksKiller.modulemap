@@ -1,0 +1,6 @@
+framework module BlockLeaksKiller {
+  umbrella header "BlockLeaksKiller-umbrella.h"
+
+  export *
+  module * { export * }
+}
