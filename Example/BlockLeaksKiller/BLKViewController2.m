@@ -8,6 +8,7 @@
 
 #import "BLKViewController2.h"
 #import "BLKView.h"
+#import "NSObject+BLKCoreExtension.h"
 
 @interface BLKViewController2 ()
 
@@ -16,6 +17,9 @@
 @implementation BLKViewController2
 
 - (void)viewDidLoad {
+    
+    // 关闭内存泄露弹窗
+//    [NSObject blk_openLeaksAlert:NO];
     
     BLKView *view = [[BLKView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     

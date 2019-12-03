@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSObject+BLKCoreExtension.h"
 
 FOUNDATION_EXPORT double BlockLeaksKillerVersionNumber;
 FOUNDATION_EXPORT const unsigned char BlockLeaksKillerVersionString[];

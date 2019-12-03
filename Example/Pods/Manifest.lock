@@ -9,7 +9,7 @@ DEPENDENCIES:
   - BlockLeaksKiller (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - FBRetainCycleDetector
     - MLeaksFinder
 
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BlockLeaksKiller: 750494103fbb3b768e7f8a640d019f8d3bfc3d9b
+  BlockLeaksKiller: 95953ba8700fae7b21bf1d5dd9e11dd61a34ec91
   FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
 
 PODFILE CHECKSUM: 71906c0e9d45cf8db1de14cd8fe77f4b404feb66
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
