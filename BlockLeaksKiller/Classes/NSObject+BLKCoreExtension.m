@@ -31,7 +31,8 @@ static NSString *blk_debugDescription(id obj, SEL sel) {
     struct BLKBlockImpl *block = (__bridge struct BLKBlockImpl *)(obj);
     Dl_info info;
     dladdr(block->FuncPtr, &info);
-    NSLog(@"泄露对象所在的block定义处：%s", info.dli_sname);
+    NSLog(@"block的定义所在方法：%s", info.dli_sname);
+    NSLog(@"image lookup --address %p", block->FuncPtr);
     return ((NSString *(*)(id, SEL))class_getMethodImplementation(class_getSuperclass(NSClassFromString(@"NSBlock")),
                                                                   sel))(obj, sel);
 }
