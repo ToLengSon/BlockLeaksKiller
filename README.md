@@ -33,25 +33,13 @@
 
 查看控制台的输出：
 
-iOS 13默认实现了NSBlock的debugDescription方法，因此保持系统默认的
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fvp3ohoyf8j30mc01djrn.jpg)
 
-![](https://tva1.sinaimg.cn/large/006tNbRwly1g9kf1gcrzjj30vn06517e.jpg)
+复制红线命令，粘贴至lldb：
 
-低版本中，NSBlock没有实现debugDescription方法，因此该工具实现了该方法
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fvp3pw65j6j30ov01s74o.jpg)
 
-![](https://tva1.sinaimg.cn/large/006tNbRwly1g9kf5dh63fj31j603g0tz.jpg)
-
-自行跳转至代码处修复
-
-## UpdateLog
-
-- 0.0.1版本打印block时，输出的是lldb命令，需要用户复制lldb命令，因此该版本减少这一步，直接打印block定义位置
-
-- 新增NSObject+BLKCoreExtension.h文件，提供方法控制开启关闭内存泄露弹窗提示
-
-## Feature
-
-之后要做的，是减少开发者的操作步骤：去除用户查看内存图，内存泄漏直接弹窗提示，点击跳转至泄漏的代码位置
+红框部分就是block导致循环引用的代码定义处，请自行跳转代码进行修复.
 
 ## Requirements
 
