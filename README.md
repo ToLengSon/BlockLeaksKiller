@@ -5,6 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/BlockLeaksKiller.svg?style=flat)](https://cocoapods.org/pods/BlockLeaksKiller)
 [![Platform](https://img.shields.io/cocoapods/p/BlockLeaksKiller.svg?style=flat)](https://cocoapods.org/pods/BlockLeaksKiller)
 
+# 新增两个宏，从编译期间避免block的循环引用
+
+```objective-c
+#define ZbWeakBlock(obj, block) ({__weak typeof(obj) weak##obj = obj; __weak typeof(weak##obj) obj = weak##obj; block;})
+
+#define ZbWeakSelfBlock(block) ZbWeakBlock(self, block)
+
+self.block = ZbWeakSelfBlock(^{
+    NSLog(@"访问self也不会循环引用：%@ - %@", self, weakself);
+});
+self.block();
+```
+
 ## Example
 
 以demo为例：
